@@ -1,0 +1,19 @@
+[package]
+name = "sway-scratchpads"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dbus = "0.9.7"
+dbus-crossroads = "0.5.2"
+dbus-tokio = "0.7.6"
+dirs = "5.0.1"
+fork = "0.2.0"
+futures = "0.3.30"
+serde = { version = "1.0.210", features = ["derive"] }
+swayipc = "3.0.2"
+tokio = { version = "1.40.0", features = ["rt", "macros", "rt-multi-thread", "process", "sync"] }
+toml = "0.8.19"
+tracing = "0.1.40"
