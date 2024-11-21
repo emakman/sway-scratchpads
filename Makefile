@@ -11,4 +11,4 @@ target/release/sway-scratchpads:
 	cargo build --release
 
 install: build-release
-	cargo install --path=.
+	cargo install --path=. --target-dir=target
